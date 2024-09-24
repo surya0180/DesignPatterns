@@ -18,27 +18,6 @@ public class Computer {
         this.isBluetoothEnabled = builder.isBluetoothEnabled;
     }
 
-    // Getters for the fields
-    public String getCPU() {
-        return CPU;
-    }
-
-    public String getRAM() {
-        return RAM;
-    }
-
-    public int getStorage() {
-        return storage;
-    }
-
-    public boolean isGraphicsCardEnabled() {
-        return isGraphicsCardEnabled;
-    }
-
-    public boolean isBluetoothEnabled() {
-        return isBluetoothEnabled;
-    }
-
     @Override
     public String toString() {
         return "Computer [CPU=" + CPU + ", RAM=" + RAM + ", storage=" + storage +
